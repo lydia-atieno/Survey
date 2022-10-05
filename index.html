@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                By Lydia
+
+            </h1>
+            <P id="description">
+                Thank you for your time
+
+            </P>
+
+        </header>
+        <form action="" id="survey-form">
+            <!--Text Section-->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" 
+                name="name" id="name"
+                class="formControl"
+                placeholder="Enter your name"
+                required>
+                
+            </div>
+            <!--End text section-->
+
+            <!--Type email section-->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" 
+                name="email" id="email"
+                class="formControl"
+                placeholder="Enter your email"
+                required>
+                
+            </div>
+            <!--End type email-->
+
+            <!--Type number section-->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="number" 
+                name="phone" id="phone"
+                class="formControl"
+                placeholder="Enter your phone number"
+                required>
+                
+            </div>
+            <!--End type number-->
+
+            <!--Address section-->
+            <div class="form-group">
+                <label for="address">Address
+                    <span class="clue">(optional)</span>
+                </label>
+                <input type="text" 
+                name="address" id="address"
+                class="formControl"
+                placeholder="Enter your address"
+                required>
+                
+            </div>
+            <!--End address section-->
+
+            <!--Select selection-->
+            <!--<div class="form-group">
+                <p id="quest">Which option best decribes your current role ?</p>
+                <select name="role" 
+                id="dropdown" class="formControl"
+                required>
+
+                <option value="" disabled
+                selected>Select current
+                role</option>
+                <option value="student">Student</option>
+                </option>
+                <option value="teacher">Teacher</option>
+                </option>
+                <option value="job">Job</option>
+                </option>
+                <option value="other">Other</option>
+                </option>
+               
+
+
+            </select>
+            </div>-->
+            <!--End select section-->
+
+            <!--Radio button selection-->
+            <!--<div class="form-group">
+                <p id="quest">How do we know each other?</p>
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="friends"
+                    class="inputRadio"
+                    >Friends
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="tv-ads"
+                    class="inputRadio"
+                    >Relatives
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="social-media"
+                    class="inputRadio"
+                    >Through Social Media
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="newspaper"
+                    class="inputRadio"
+                    >Highschool Classmates
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="other"
+                    class="inputRadio"
+                    >Campus Classmates
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="other"
+                    class="inputRadio"
+                    >Neighbours
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="other"
+                    class="inputRadio"
+                    >Other
+
+                </label>
+            </div>-->
+
+            <div class="form-group">
+                <p id="quest">Your first impression about me?</p>
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="friends"
+                    class="inputRadio"
+                    >Arrogant
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="tv-ads"
+                    class="inputRadio"
+                    >Shy
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="social-media"
+                    class="inputRadio"
+                    >Fun
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="newspaper"
+                    class="inputRadio"
+                    >Boring
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="other"
+                    class="inputRadio"
+                    >Other
+
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Would you say I am an...</p>
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="friends"
+                    class="inputRadio"
+                    >Introvert
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="tv-ads"
+                    class="inputRadio"
+                    >Extrovert
+
+                </label>
+                </div>
+
+            <div class="form-group">
+                <label for="address">What is my best character trait?
+                    <span class="clue">(optional)</span>
+                </label>
+                <input type="text" 
+                name="address" id="address"
+                class="formControl"
+                placeholder=""
+                required>
+                
+            </div>
+
+            <div class="form-group">
+                <label for="address">What is my worst character trait?
+                    <span class="clue">(optional)</span>
+                </label>
+                <input type="text" 
+                name="address" id="address"
+                class="formControl"
+                placeholder=""
+                required>
+                
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Number of kids I would like to have in future?</p>
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="friends"
+                    class="inputRadio"
+                    >2
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="tv-ads"
+                    class="inputRadio"
+                    >3
+
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="social-media"
+                    class="inputRadio"
+                    >4
+
+                </label>
+
+                <!--<label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="newspaper"
+                    class="inputRadio"
+                    >
+
+                </label>-->
+
+                <label for="">
+                    <input type="radio"
+                    name="source" 
+                    value="other"
+                    class="inputRadio"
+                    >Other
+
+                </label>
+            </div>
+            <!--End radio button-->
+
+           
+
+
+
+            <!--checkbox section-->
+            <!--<div class="form-group">
+                <p id="quest">Would you like to see improved </p>
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer" class="checkbox"
+                    value="back-end-dev">Back-end Developer
+
+                </label>
+
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer" class="checkbox"
+                    value="front-end-dev">Front-end Developer
+
+                </label>
+
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer" class="checkbox"
+                    value="app-dev">Android App Developer
+
+                </label>
+
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer" class="checkbox"
+                    value="soft-engineering">Software Engineering
+
+                </label>
+
+                <label for="">
+                    <input type="checkbox"
+                    name="prefer" class="checkbox"
+                    value="other">Other
+
+                </label>
+            </div>-->
+            <!--End checkbox section-->
+
+            <!--Text area section-->
+            <div class="form-group">
+                <p id="quest">Give me your feedback</p>
+                <textarea name="feedback" id="feedback" 
+                cols="30" rows="5" class="textarea"
+                placeholder="Enter your feedback here...">
+            </textarea>
+            </div>
+            <!--End text area-->
+
+            <!--Submit button-->
+            <div class="form-group">
+                <button type="submit"
+                id="submit"
+                class="btn">Submit</button>
+            </div>
+            <!--End submit button-->
+
+        </form>
+    </div>
+    
+</body>
+</html>
